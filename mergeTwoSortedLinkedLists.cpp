@@ -9,9 +9,9 @@
  * };
  */
 class Solution {
-  public: ListNode * mergeTwoLists(ListNode * list1, ListNode * list2) {
-    ListNode * head = new ListNode; // Create a new linked list
-    ListNode * current; // Create a variable to track the current node in the new linked list
+  public: ListNode *mergeTwoLists(ListNode * list1, ListNode * list2) {
+    ListNode *head = new ListNode; // Create a new linked list
+    ListNode *current; // Create a variable to track the current node in the new linked list
 
     if (list1 == nullptr) return list2; // If the list is empty, return the other list.
     if (list2 == nullptr) return list1; // If the list is empty, return the other list.
